@@ -1,0 +1,17 @@
+
+
+input {
+    display: block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 25%
+}
+
+button {
+    margin-top: 20px;
+    background-color: #000000d5;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+}

@@ -14,5 +14,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'appointment-app';
+  title = 'This is my first Angular App Through data binding';
 }

@@ -10,3 +10,18 @@ input {
     padding: 2px;
     width: 15%;
 }
+
+.router-button {
+    margin-top: 20px;
+    padding: 5px 3px;
+    border-radius: 4px;
+    background-color: #181616;
+    color: #fcf9f9;
+    transition: .5s;
+
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+}

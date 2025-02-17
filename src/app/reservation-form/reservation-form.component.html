@@ -42,12 +42,14 @@
             <label for="roomNumber">Room Number: </label>
             <input type="number" id="roomNumber" formControlName="roomNumber">
             <div *ngIf="reservationForm.get('roomNumber')?.invalid
-            && reservationForm.get('roomNumber')?.touched" class="error">
+            && reservationForm.get('roomNumberz')?.touched" class="error">
                 roomNumber is required
             </div>
         </div>
 
         <button type="submit" [disabled]="reservationForm.invalid">Submit</button>
     </form>
+
+    <button class="router-button" [routerLink]="'/list'"> See List Of Reservations </button>
 
 </div>

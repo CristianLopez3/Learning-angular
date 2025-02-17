@@ -13,7 +13,7 @@ export const routes: Routes = [
         component: ReservationListComponent
     },
     {
-        path: "form",
+        path: "new",
         component: ReservationFormComponent
     }
 ];
